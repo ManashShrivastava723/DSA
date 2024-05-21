@@ -17,7 +17,7 @@ def validateipaddress(ip):
     print(f'Valid IP address: {ip}')
 
 while True:
-    our_input = input("Enter an IPv4 address to validate (or 'exit' to quit): ")
-    if our_input.lower() == 'exit':
+    our_input = input("Enter an IPv4 address if want to exit write exit ")
+    if our_input.upper() == 'EXIT':
         break
     validateipaddress(our_input)
