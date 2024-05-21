@@ -11,7 +11,7 @@ def validateipaddress(ip):
         if num < 0 or num > 255: 
             print(f'Invalid IP address: {ip}')
             return
-        if part != "0" and part.startswith("0"): #zero checking starting me nhi ho agar whole part is not zero then
+        if part != "0" and part.startswith("0") and part.ends: #zero checking starting me nhi ho agar whole part is not zero then
             print(f'Invalid IP address: {ip}')
             return
     print(f'Valid IP address: {ip}')
