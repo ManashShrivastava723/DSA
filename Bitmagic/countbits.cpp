@@ -1,12 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 int bitcount(int n){
-    int res=0;
+    int sum=0;
     while(n>0){
         n=(n & (n-1));
-        res++;
+        sum=sum+n;
     }
-    return res;
+    return sum;
 }
 int main(){
     int n;
