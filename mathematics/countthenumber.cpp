@@ -18,7 +18,8 @@ int countnumber(int n){
      return digit;
 }
 int main(){
-    int n=5;
+    int n=9999;
+    
  //   cout<<result<<endl;
     cout<<countnumber(n);
     return 0;
